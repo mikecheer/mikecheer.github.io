@@ -4,8 +4,14 @@
     max-width: 1300px;
     min-width: 1000px;
 
+    @media screen and (max-width: 1000px) {
+      min-width: 300px;
+      padding: 0 24px;
+    }
+
     .content-container {
       text-align: center;
+      margin-top: 7rem;
       .content {
         display: inline-block;
         text-align: left;

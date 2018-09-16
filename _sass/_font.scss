@@ -1,0 +1,28 @@
+.content {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  @media screen and (max-width: 1000px) {
+    h1 {
+      font-size: 1.5em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+
+    .title {
+      span {
+        &::before {
+          content: "\A";
+          white-space: pre;
+        }
+      }
+    }
+  }
+}
+
