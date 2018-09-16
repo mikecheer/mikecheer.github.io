@@ -1,0 +1,16 @@
+.site {
+  .site-container {
+    margin: 0 auto;
+    max-width: 1300px;
+    min-width: 1000px;
+
+    .content-container {
+      text-align: center;
+      .content {
+        display: inline-block;
+        text-align: left;
+        max-width: 1000px;
+      }
+    }
+  }
+}
